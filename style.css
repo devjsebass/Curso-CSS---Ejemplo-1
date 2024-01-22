@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.div-responsive {
+    background: #c34;
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+    .div-responsive{
+        background: chartreuse;
+    }
+}
+
+
+/* .caja1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;  --margen automático que hace el navegador
+    border: 10px solid blue;
+    box-sizing: border-box;  --configura el mismo tamaño para el contenedor
+} 
+
+.caja1 {
+    background-color: yellow;
+}
+
+.caja2 {
+    background-color: red;
+    position: relative;  --Añade un margin al contenedor 
+    top:60px;
+    left: 20px;
+    z-index: 1;
+}
+
+.caja3 {
+    background-color: green;
+    position: relative;
+    z-index: 10;   --Posiciona un elemento delante de otro - Se requiere position: relative
+}
+
+.caja4 {
+    background-color: blue;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.container {
+    margin: 100px;
+}
+.caja1 {
+    background: yellow;
+}
+
+.caja2 {
+    background: blue;
+    position: absolute;  --Deja el espacio al div siguiente y se posiciona encima
+    opacity: 0.4;  --Propiedad que configura la opacidad del contenedor
+    margin-left: 300px;
+}
+
+.caja3 {
+    background: red;
+} 
+
+.caja-fixed{
+    background: red;
+    position: fixed;  Mantiene el contenedor por encima de forma estatica
+    position: sticky; Se mantiene estatico pero cuando, se muestra en el VP se mantiene encima
+    opacity: .3;
+    top: 0;
+}
+
+*/
+
+
+
+
+
+
